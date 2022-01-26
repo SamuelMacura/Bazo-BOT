@@ -8,12 +8,12 @@ counter = 0
 tmp_list = []
 
 
-#EMAIL LOGIN (gmail)
+
 email =  'insert sender email here'
 password = 'insert sender email password here'
 receiver = 'insert receiver email address here'
 
-#SPACER
+
 def clear_line():
     for i in range(1,5):
         print('')
@@ -21,13 +21,12 @@ def clear_line():
 
 
 
-#REFRESHING
 refresh = input('REFRESH (secs/enter=60s): ')
 if refresh == '':
     refresh = 60
 
 
-#CATEGORY
+
 print("PC / MOBILE / CAR: ")
 cat = input(': ')
 
